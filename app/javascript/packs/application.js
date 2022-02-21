@@ -47,3 +47,6 @@ document.addEventListener("turbolinks:load", () => {
 
 // FontAwesome free for icons
 import "@fortawesome/fontawesome-free/css/all"
+
+
+import '../../assets/javascripts/serviceworker-companion.js';
