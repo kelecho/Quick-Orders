@@ -217,6 +217,8 @@ GEM
       sprockets-rails
       tilt
     semantic_range (3.0.0)
+    serviceworker-rails (0.6.0)
+      railties (>= 3.1)
     set (1.0.2)
     shoulda-matchers (4.5.1)
       activesupport (>= 4.2.0)
@@ -250,6 +252,9 @@ GEM
       rack-proxy (>= 0.6.1)
       railties (>= 5.2)
       semantic_range (>= 2.3.0)
+    webpacker-pwa (0.1.0)
+      rack-proxy (>= 0.6.1)
+      webpacker (>= 4.0.0)
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
@@ -283,12 +288,14 @@ DEPENDENCIES
   ransack
   rspec-rails (~> 4.0.1)
   sass-rails (>= 6)
+  serviceworker-rails (~> 0.6.0)
   shoulda-matchers (~> 4.0)
   spring
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 4.1.0)
   webpacker (~> 5.0)
+  webpacker-pwa (~> 0.1.0)
 
 RUBY VERSION
    ruby 2.7.1p83
